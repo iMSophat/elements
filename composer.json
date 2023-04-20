@@ -1,6 +1,39 @@
 {
     "name": "sophat/elements",
-    "description": "testing packages",
+    "description": "Sophat/Elements components is Build for SmartERP, and SmartPOS Components",
     "license": "MIT",
-    "require": {}
+    "type": "library",
+    "keywords": [
+        "sophat",
+        "turbotech-components"
+    ],
+    "authors": [
+        {
+            "name": "Leat Sophat",
+            "email": "info.sophat@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sophat\\Elements\\ElementsServicesProvider"
+            ]
+        }
+    },
+    "require": {
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sophat\\Elements\\":"src",
+            "Sophat\\Elements\\Test\\":"tests"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
