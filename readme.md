@@ -73,8 +73,8 @@ php artisan serve
 ```
 #   Components
 -   [`Elements`](documents/elements/)
-    -   [`Buttons`](documents/elements/buttons.md) : Available now
-    -   [`Button Groups`](documents/elements/buttons.md#-group-buttons) : Available now
+    -   [`Buttons`](documents/elements/buttons.md) : <small>`(New)`</small>
+    -   [`Button Groups`](documents/elements/buttons.md#-group-buttons) : <small>`(New)`</small>
     -   `Headers`: Coming soon
     -   `Flyout Menus`: Coming soon
     -   `Banners`: Coming soon
@@ -102,16 +102,21 @@ php artisan serve
     -   `404 Pages`: Coming soon
     -   `500 Pages`: Coming soon
 
--   `Layout` : Coming soon
-    -   `Containers`: Coming soon
+-   [`Layout`](documents/layouts/) 
+    -   [`Container`](documents/layouts/container.md): <small>`(New)`</small>
+    -   [`Card`](documents/layouts/container.md#x-card): <small>`(New)`</small>
     -   `Panels`: Coming soon
     -   `List containers`: Coming soon
     -   `Media Objects`: Coming soon
     -   `Dividers`: Coming soon
+
+-   [`Display`](documents/display/)
+    -   [`Stats`](documents/display/stats.md#x-stats): <small>`(New)`</small>
 #   Contributors
+
 - [PPhat](https://github.com/pphatDev) 
 
-
+    <!-- Thank you for considering contributing to `Sophat/Elements`! You can read the contribution guide [here](CONTRIBUTING.md). -->
 #   Community
 ##   Issues
 
