@@ -45,6 +45,18 @@ content: [
 ],
 
 ```
+
+#### If compiling via Laravel Modules package:
+```js
+const path = require('path'); 
+```
+```js
+content: [
+    ...
+    path.join(__dirname, "../../vendor/sophat/**/src/**/*.blade.php"),
+    path.join(__dirname, "../../vendor/sophat/**/src/**/**/*.blade.php"),
+]
+```
 then compile css with Tailwindcss
 
 ```bash
