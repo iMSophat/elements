@@ -4,7 +4,7 @@
 
 Build for SmartERP, and SmartPOS Components
 
-## 1. Installation
+# Installation
 
 #### You can install the package via composer:
 
@@ -12,7 +12,7 @@ Build for SmartERP, and SmartPOS Components
 composer require sophat/elements
 ```
 
-## 2. Usage 
+#   Usage 
 
 #### Inside `providers` of `config/app.php` 
 ```php
@@ -67,42 +67,60 @@ to start server
 ```bash
 php artisan serve
 ```
-## 3. Components
+#   Components
+-   [`Elements`](documents/elements/)
+    -   [`Buttons`](documents/elements/buttons.md) : Available now
+    -   [`Button Groups`](documents/elements/buttons.md#-group-buttons) : Available now
+    -   `Headers`: Coming soon
+    -   `Flyout Menus`: Coming soon
+    -   `Banners`: Coming soon
+    -   `Badges`: Coming soon
+    -   `Dropdowns`: Coming soon
 
--   ### Buttons
-    This button is use for general button, customizable: 
-    -   `type`: supported add button type in [HTML](https://html.com/attributes/button-type/)
-    -   `theme`: 
-        1. `primary`, 
-        1. `secondary`, 
-        1. `warning`, 
-        1. `danger`, 
-        1. `success`, 
-        1. `info`.
+-   `Sections` : Coming soon
+    -   `Headings Sections`: Coming soon
+    -   `Hero Sections`: Coming soon
+    -   `Feature Sections`: Coming soon
+    -   `CTA Sections`: Coming soon
+    -   `Pricing Sections`: Coming soon
+    -   `Header Sections`: Coming soon
+    -   `Newsletter Sections`: Coming soon
+    -   `Stats`: Coming soon
+    -   `Testimonials`: Coming soon
+    -   `Blog Sections`: Coming soon
+    -   `Contact Sections`: Coming soon
+    -   `Team Sections`: Coming soon
+    -   `Logo Clouds`: Coming soon
+    -   `FAQs`: Coming soon
+    -   `Footers`: Coming soon
+    
+-   `Page Status` : Coming soon
+    -   `404 Pages`: Coming soon
+    -   `500 Pages`: Coming soon
 
-    Optional color mode. user can customize on `tailwindcss.config.js`  (Optional)
-    -   `onclick`: supported JS functions (Optional)
-    -   `size`: Optional params, for default is using `text-sm`
-        1.  `xs` = `text-xs`
-        1.  `sm` = `text-sm`
-        1.  `md` = `text-md`
-        1.  `lg` = `text-lg`
-        1.  `xl` = `text-xl`
+-   `Layout` : Coming soon
+    -   `Containers`: Coming soon
+    -   `Panels`: Coming soon
+    -   `List containers`: Coming soon
+    -   `Media Objects`: Coming soon
+    -   `Dividers`: Coming soon
+#   Contributors
+- [PPhat](https://github.com/pphatDev) 
 
-        ```html
-        <x-e:button 
-            type="button" 
-            theme="primary"  
-            onclick="alert('done')" 
-            size="sm">
-            button 
-        </x-e:button>
-        ```
 
-## 4. Credits
+#   Community
+##   Issues
 
-- [PPhat Dev](https://github.com/pphatDev)
+- [All Issues](https://github.com/iMSophat/elements/issues) 🚧
+- [Create New Issues](https://github.com/iMSophat/elements/issues/new) 🚧
 
-## 5. License
+##   Discussions
+
+- [Discussions](https://github.com/orgs/iMSophat/discussions) 📣🔔
+- [Start a new discussion](https://github.com/orgs/iMSophat/discussions/new?category=q-a) 📣🔔
+
+
+
+#   License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.

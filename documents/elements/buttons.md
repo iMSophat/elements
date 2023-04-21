@@ -97,26 +97,32 @@ $buttons = [
 ```
 
 # `x-xs:group:button`
+
 ```html
 <x-xs:group:button gap="gap-2" justify="start" :buttons="$buttons"></x-xs:group:button>
 ```
 
 # `x-sm:group:button`
+
 ```html
 <x-lg:group:button gap="gap-2" justify="start" :buttons="$buttons"></x-lg:group:button>
 ```
 
 # `x-md:group:button`
+
 ```html
 <x-md:group:button gap="gap-2" justify="start" :buttons="$buttons"></x-md:group:button>
 ```
 
 # `x-lg:group:button`
+
+
 ```html
 <x-lg:group:button gap="gap-2" justify="start" :buttons="$buttons"></x-lg:group:button>
 ```
 
 # `x-xl:group:button`
+
 ```html
 <x-xl:group:button gap="gap-2" justify="start" :buttons="$buttons"></x-xl:group:button>
 ```
