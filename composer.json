@@ -1,7 +1,9 @@
 {
     "name": "sophat/elements",
+    "version": "0.0.1-beta",
     "description": "Sophat/Elements components is Build for SmartERP, and SmartPOS Components",
     "license": "MIT",
+    "homepage": "https://github.com/iMSophat/elements",
     "type": "library",
     "keywords": [
         "sophat",
@@ -11,7 +13,8 @@
         {
             "name": "Leat Sophat",
             "email": "info.sophat@gmail.com",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://leatsophat.me"
         }
     ],
     "extra": {
@@ -22,6 +25,7 @@
         }
     },
     "require": {
+        "php": ">=7.4.0",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1"
     },
