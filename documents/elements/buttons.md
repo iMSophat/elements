@@ -4,19 +4,19 @@
 This buttons are default style and customizable, User can customize `type`, `onClick`, `theme` ,`size`, `round` .
 
 -   [`<x-button>`](#x-button)
--   [`<x-xs:button>`](#x-xs:button)
--   [`<x-sm:button>`](#x-sm:button)
--   [`<x-md:button>`](#x-md:button)
--   [`<x-lg:button>`](#x-lg:button)
--   [`<x-xl:button>`](#x-xl:button)
+-   [`<x-xs:button>`](#x-xsbutton)
+-   [`<x-sm:button>`](#x-smbutton)
+-   [`<x-md:button>`](#x-mdbutton)
+-   [`<x-lg:button>`](#x-lgbutton)
+-   [`<x-xl:button>`](#x-xlbutton)
 
 ### 🟨🟥🟦 Group Buttons 
--   [`<x-group:button>`](#x-group:button)
--   [`<x-xs:group:button>`](#x-xs:group:button)
--   [`<x-sm:group:button>`](#x-sm:group:button)
--   [`<x-md:group:button>`](#x-md:group:button)
--   [`<x-lg:group:button>`](#x-lg:group:button)
--   [`<x-xl:group:button>`](#x-xl:group:button)
+-   [`<x-group:button>`](#x-groupbutton)
+-   [`<x-xs:group:button>`](#x-xsgroupbutton)
+-   [`<x-sm:group:button>`](#x-smgroupbutton)
+-   [`<x-md:group:button>`](#x-mdgroupbutton)
+-   [`<x-lg:group:button>`](#x-lggroupbutton)
+-   [`<x-xl:group:button>`](#x-xlgroupbutton)
 
 # ⚠️ **Requirement**
 Please Check Usage: [Reqirement](../../readme.md#2-usage) 
