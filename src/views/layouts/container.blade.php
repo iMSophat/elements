@@ -13,7 +13,7 @@
      *  @example 🌺
      *  <x-container grid="grid-cols-1" col="col-span-1"> 
      *      <div>
-     *          etc
+     *          etc...
      *      </div>
      *  </x-container>
      **/ 
